@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./scripts/index.js" defer></script>
+    <title>HTC - Prova - Tadrio Tabosa</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 class="form-container__title">Faça seu cadastro</h1>
+      <form class="form-container__wrapper">
+        <label for="form-name" class="form-container__wrapper--title label-name"
+          >Nome Completo</label
+        >
+        <input
+          type="text"
+          name="Nome completo"
+          placeholder="Digite seu nome completo"
+          id="form-name"
+          class="form-container__wrapper--input input-name"
+        />
+        <label for="form-email" class="form-container__wrapper--title label-email"
+          >E-mail</label
+        >
+        <!-- tive que colocar o input de email como tipo texto para funcionar o script -->
+        <input
+          type="text" asdsadsa
+          name="E-mail"
+          id="form-email"
+          placeholder="Digite seu e-mail"
+          class="form-container__wrapper--input input-email"
+        />
+        <label for="form-password" class="form-container__wrapper--title"
+          >Senha</label
+        >
+        <div class="form-container__wrapper--password-container">
+          <input
+            type="password"
+            name="password"
+            id="form-password"
+            placeholder="Crie uma senha"
+            class="form-container__wrapper--password-container--input input-password-1"
+          />
+          <img
+            src="./img/password-invisible.svg"
+            class="form-container__wrapper--password-container--img"
+            alt="ícone de olho cortado"
+            title="olho com traço na diagonal indicando que a senha não está visível na tela"
+          />
+        </div>
+        <label
+          for="form-confirm-password"
+          class="form-container__wrapper--title label-password"
+          >Confirmar Senha</label
+        >
+        <div class="form-container__wrapper--password-container">
+          <input
+            type="password"
+            name="password"
+            id="form-confirm-password"
+            placeholder="Crie uma senha"
+            class="form-container__wrapper--password-container--input input-password-2"
+          />
+          <img
+            src="./img/password-invisible.svg"
+            class="form-container__wrapper--password-container--img"
+            alt="ícone de olho cortado"
+            title="olho com traço na diagonal indicando que a senha não está visível na tela"
+          />
+        </div>
+        <div class="form-container__wrapper__terms-wrapper">
+          <input
+            type="checkbox"
+            name="terms"
+            id="form-terms"
+            class="form-container__wrapper__terms-wrapper--checkbox"
+          />
+          <label
+            for="form-terms"
+            class="form-container__wrapper__terms-wrapper--title"
+            >Aceito os termos de uso e concordo com as
+            <a href="#" class="form-container__wrapper__terms-wrapper--link"
+              >políticas de privacidade</a
+            ></label
+          >
+        </div>
+        <button class="form-container__wrapper--button">Cadastrar</button>
+      </form>
+    </div>
+  </body>
+</html>
